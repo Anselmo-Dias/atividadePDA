@@ -1,0 +1,55 @@
+AULA DO DIA 18/11/22 - ATIVIDADE EM GRUPO
+
+Integrantes do grupo 11: Anselmo, Juliana, Nataly e Rafael;
+
+
+1- Defina o que é uma tabela verdade e cite exemplos.
+
+---> Tabela verdade é um dispositivo utilizado no
+estudo da lógica matemática. Com o uso desta tabela é possível definir o valor lógico de uma proposição, isto é, saber quando uma sentença é verdadeira ou falsa. Em lógica, as proposições representam pensamentos completos e indicam afirmações de fatos ou ideias.
+
+-----------------------------------------------------------------------------------------------------------
+2- Defina o que é uma variável, como ela deve ser escrita  e o que não pode ser utilizado em uma variável.
+    - Um espaço em memória onde sera armazenado algum dado;
+    - É possível usar letras ou números,
+    - Não podem começar com números,
+    - Não podem com ter espaços, 
+    - Não podem ser palavras reservadas
+-----------------------------------------------------------------------------------------------------------
+3- Descreva com suas palavras o que é tupla, lista e dicionário e a diferença entre elas, faça um programa de exemplo para cada.
+    - Tupla: isso_e_uma_tupla = ('A', 'B', 'C') - Tupla é um tipo de dado que arquiva um conjunto de elementos de forma imutável.
+    nomes_dos_integrantes_do_grupo = ("Anselmo","Juliana","Nataly","Rafael")
+
+    - Lista: isso_e_uma_lista = ['A', 'B', 'C'] - Lista é um tipo de dado que arquiva um conjunto de elementos.
+    lista_de_compras = ["arroz","feijão","batata","ovo","carne"]
+
+    - Dicionário: isso_e_um_dicionario = {'A', 'B', 'C'} - Dicionários são uma coleção que guarda valores multidimensionais para cada índice.
+    dados_dos_incritos = {"Nataly": 1.60; "Rafael": 1.83; "Juliana": 1.67; "Anselmo": 1.85;}
+-----------------------------------------------------------------------------------------------------------
+4-  Utilizando condicionais:
+4.1 Os alunos do PdA estão sendo avaliados, para passar para o próximo ciclo, deverão  tirar 7 na média.
+    -Se o aluno tirar maior ou igual a 7 ele está aprovado.
+    -Se o aluno tiver nota 6 e for participativo, irá para recuperação.
+    -Senão, será reprovado.
+        Faça um algoritmo que auxilie a avaliar a nota dos alunos.
+
+4.2 A PDA quer verificar se o Tiago está qualificado tirar férias. Para estar em condições, os seguintes requisitos devem ser satisfeito:
+    - Ter trabalhado no mínimo 12 meses completos.
+    - Ter disponibilidade de tirar férias entre dezembro e janeiro.
+        Faca um algoritmo que valide ou não essas duas opções para saber se o Tiago pode tirar férias. O programa deverá escrever a mensagem “Tiago pode sair de férias “ ou  “Tiago não pode sair de férias”.
+
+4.3 A PdA fará uma confraternização em um grande parque aquático em São Paulo, mas para conseguir se programar e fechar a data precisa analisar a temperatura.
+Faça um programa que avalie e entregue as seguintes respostas:
+    - Maior que 25 graus ("Oba! A PDA pode marcar a data").
+    - Menor ou igual a 25 graus ("Vamos! O que vale é a companhia").
+    - Menor ou igual a 15 graus ("Estará muito frio, não podemos alugar nessa data").
+
+DESAFIOS EXTRAS - OPCIONAIS
+
+DESAFIO_01 = Estamos com dificuldade em identificar se um número é positivo, negativo ou neutro.
+
+Faça uma programa que imprima se o número é positivo, neutro ou negativo.
+
+DESAFIO_02 = Precisamos identificar a menor média de um aluno para saber se ele pode seguir para a próxima fase de um projeto.
+
+Faça um programa que peça as três notas do aluno e imprima a menor deles.
